@@ -16,6 +16,7 @@ import {
   figma,
   pptv,
   exhibit,
+  colmusk,
   zerohunger,
   dashboard,
   task,
@@ -108,9 +109,22 @@ const technologies = [
 ];
 
 const experiences = [
+ {
+  title: "Node.js Developer",
+  company_name: "Colmusk",
+  icon: colmusk,
+  iconBg: "#383E56",
+  date: "May 13, 2025 – Present",
+  points: [
+    "Built and maintained web applications using TypeScript, Node.js, and related technologies.",
+    "Worked closely with designers, product managers, and developers to deliver high-quality features.",
+    "Ensured responsive design principles and cross-browser compatibility across applications.",
+    "Contributed to code reviews by giving and receiving constructive feedback to improve code quality.",
+  ],
+},
   {
     title: "React.js Developer",
-    company_name: "Exhibit",
+    company_name: "Laara",
     icon: exhibit,
     iconBg: "#383E56",
     date: "Feb 3, 2024 – Feb 27, 2024 ",
