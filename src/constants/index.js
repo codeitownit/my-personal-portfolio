@@ -109,44 +109,57 @@ const technologies = [
 ];
 
 const experiences = [
- {
-  title: "Node.js Developer",
-  company_name: "Colmusk",
-  icon: colmusk,
-  iconBg: "#383E56",
-  date: "May 13, 2025 – Present",
-  points: [
-    "Built and maintained web applications using TypeScript, Node.js, and related technologies.",
-    "Worked closely with designers, product managers, and developers to deliver high-quality features.",
-    "Ensured responsive design principles and cross-browser compatibility across applications.",
-    "Contributed to code reviews by giving and receiving constructive feedback to improve code quality.",
-  ],
-},
+    {
+    title: "Software Engineer",
+    company_name: "Comligo Spanish",
+    icon: colmusk,
+    iconBg: "#383E56",
+    date: "May 13, 2025 – Present",
+    points: [
+      "Built and maintained web applications using Nuxt, Firebase, and related technologies.",
+      "Worked closely with designers, product managers, and developers to deliver high-quality features.",
+      "Ensured responsive design principles and cross-browser compatibility across applications.",
+      "Contributed to code reviews by giving and receiving constructive feedback to improve code quality.",
+    ],
+   },
+   {
+    title: "Software Developer",
+    company_name: "Colmusk",
+    icon: colmusk,
+    iconBg: "#383E56",
+    date: "April 14, 2025 – April 30, 2026",
+    points: [
+      "Built and maintained web applications using TypeScript, Node.js, and related technologies.",
+      "Worked closely with designers, product managers, and developers to deliver high-quality features.",
+      "Ensured responsive design principles and cross-browser compatibility across applications.",
+      "Contributed to code reviews by giving and receiving constructive feedback to improve code quality.",
+    ],
+  },
   {
-    title: "React.js Developer",
+    title: "Backend Developer",
     company_name: "Laara",
     icon: exhibit,
     iconBg: "#383E56",
-    date: "Feb 3, 2024 – Feb 27, 2024 ",
+    date: "Sep 3, 2024 – Sep 24, 2025",
     points: [
-      "Developing and maintaining a contract-based web application using React.js and other related technologies.",
+      "Developing and maintaining a contract-based web application using Nest.js and other related technologies.",
       "Collaborating with cross-functional teams including designers, product managers, and other developers to create a high-quality product.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
+      "Contributed to API development, database integration, and backend performance improvements.",
+      "Participated in code reviews, provided and applied feedback to improve code quality and maintainability.",
     ],
   },
-  {
-    title: "Web Developer",
-    company_name: "PPPTV",
-    icon: pptv,
-    iconBg: "#E6DEDD",
-    date: "May 2023 - July 2023",
-    points: [
-      "Maintaining company website using React.js.",
-      "Creating and updating the UI/UX to ensure viewers have the best experience. ",
-      "Participating in code reviews and providing constructive feedback to other developers.",
-    ],
-  },
+  // {
+  //   title: "Web Developer",
+  //   company_name: "PPPTV",
+  //   icon: pptv,
+  //   iconBg: "#E6DEDD",
+  //   date: "May 2023 - July 2023",
+  //   points: [
+  //     "Maintaining company website using React.js.",
+  //     "Creating and updating the UI/UX to ensure viewers have the best experience. ",
+  //     "Participating in code reviews and providing constructive feedback to other developers.",
+  //   ],
+  // },
 ];
 
 const testimonials = [
@@ -177,6 +190,27 @@ const testimonials = [
 ];
 
 const projects = [
+  {
+    name: "AfyaPlay",
+    description:
+      "A mobile application that allows users to track their fitness journey, join community challenges near them, and earn real rewards. Built for Africa, it makes fitness accessible, social, and rewarding.",
+      tags: [
+      {
+        name: "flutter",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "python",
+        color: "green-text-gradient",
+      },
+      {
+        name: "live tracking",
+        color: "pink-text-gradient",
+      },
+    ],
+    image: task,
+    source_code_link: "https://afyaplay.co.ke",
+  },
   {
     name: "Zero Hunger",
     description:
@@ -218,27 +252,6 @@ const projects = [
     ],
     image: dashboard,
     source_code_link: "https://github.com/Phase-5-Capstone-Project",
-  },
-  {
-    name: "Task Manager",
-    description:
-      "CLI platform that allows users to add, delete, and manage tasks from various categories, providing a convenient and efficient solution for task management.",
-      tags: [
-      {
-        name: "python",
-        color: "blue-text-gradient",
-      },
-      {
-        name: "bash",
-        color: "green-text-gradient",
-      },
-      {
-        name: "commandline",
-        color: "pink-text-gradient",
-      },
-    ],
-    image: task,
-    source_code_link: "https://github.com/codeitownit/Phase-3-Final-Project-Nandi",
   },
 ];
 
