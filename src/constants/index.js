@@ -16,11 +16,14 @@ import {
   figma,
   pptv,
   exhibit,
+  comligo,
   colmusk,
+  laara,
   zerohunger,
   dashboard,
   task,
   threejs,
+  flutter,
 } from "../assets";
 
 export const navLinks = [
@@ -79,8 +82,8 @@ const technologies = [
     icon: reactjs,
   },
   {
-    name: "Redux Toolkit",
-    icon: redux,
+    name: "Flutter",
+    icon: flutter,
   },
   {
     name: "Tailwind CSS",
@@ -95,8 +98,8 @@ const technologies = [
     icon: mongodb,
   },
   {
-    name: "Three JS",
-    icon: threejs,
+    name: "Redux Toolkit",
+    icon: redux,
   },
   {
     name: "git",
@@ -112,7 +115,7 @@ const experiences = [
     {
     title: "Software Engineer",
     company_name: "Comligo Spanish",
-    icon: colmusk,
+    icon: comligo,
     iconBg: "#383E56",
     date: "May 13, 2025 – Present",
     points: [
@@ -138,9 +141,9 @@ const experiences = [
   {
     title: "Backend Developer",
     company_name: "Laara",
-    icon: exhibit,
-    iconBg: "#383E56",
-    date: "Sep 3, 2024 – Sep 24, 2025",
+    icon: laara,
+    iconBg: "#E6DEDD",
+    date: "Sep 3, 2024 – Feb 24, 2025",
     points: [
       "Developing and maintaining a contract-based web application using Nest.js and other related technologies.",
       "Collaborating with cross-functional teams including designers, product managers, and other developers to create a high-quality product.",
@@ -204,7 +207,7 @@ const projects = [
         color: "green-text-gradient",
       },
       {
-        name: "live tracking",
+        name: "google maps",
         color: "pink-text-gradient",
       },
     ],

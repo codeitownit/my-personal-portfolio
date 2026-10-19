@@ -20,13 +20,17 @@ import redux from "./tech/redux.png";
 import tailwind from "./tech/tailwind.png";
 import typescript from "./tech/typescript.png";
 import threejs from "./tech/threejs.svg";
+import flutter from "./tech/flutter.png";
 
 import pptv from "./company/pptv.png";
 import exhibit from "./company/exhibit.png";
+import comligo from "./company/comligo.png";
+import colmusk from "./company/colmusk.png";
+import laara from "./company/laara.png";
 
 import zerohunger from "./zerohunger.png";
 import dashboard from "./dashboard.PNG";
-import task from "./task.PNG";
+import task from "./afyaplay.jpeg";
 
 export {
   logo,
@@ -50,8 +54,12 @@ export {
   tailwind,
   typescript,
   threejs,
+  flutter,
   pptv,
   exhibit,
+  comligo,
+  colmusk,
+  laara,
   zerohunger,
   dashboard,
   task,
